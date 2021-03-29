@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap');
+html{height: 100%;}
+body {
+    height: 100%;
+    background: url('https://i.imgur.com/bxGO6jd.png') no-repeat;
+    background-size: cover;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+button {
+    border: none;
+    font-size: 30px;
+    color: white;
+    background:transparent;
+    font-family: 'Kiwi Maru', serif;
+
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 32px;
+
+    right: 40px;
+}
+h1 {
+    font-size: 30px;
+    font-family: 'Kiwi Maru', serif;
+    color:white;
+    background: rgba(0,187,0,0.54);
+    
+    
+    border: 5px dotted teal;
+    padding: 8px;
+}
+p {font-size: 25px;}

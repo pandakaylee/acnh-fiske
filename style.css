@@ -35,4 +35,11 @@ h1 {
     border: 5px dotted teal;
     padding: 8px;
 }
-p {font-size: 25px;}
+p {font-size: 25px;
+color: white;
+background-color: rgba(0,187,0,0.54);
+background-size: contain;
+width: 900px;
+height: 30px;
+padding-left: 30px;
+}

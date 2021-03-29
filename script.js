@@ -23,6 +23,11 @@ function getFishImageUrl(fish) {
     return 'http://acnhapi.com/v1/images/fish/' + fish.id
 }
 
+function startBgm() {
+    let bgm = document.getElementById('bgm');
+    bgm.play();
+}
+
 async function generate() {
     let navn = document.getElementById('navn')
     let bilde = document.getElementById('bilde')
@@ -37,4 +42,6 @@ async function generate() {
     navn.textContent = fiskeNavn;
     bilde.src = bildeLink;
     catchp.textContent = catchpText;
+
+    startBgm();
 }
